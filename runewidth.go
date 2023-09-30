@@ -186,6 +186,7 @@ func (c *Condition) StringWidth(s string) (width int) {
 		}
 		width += chWidth
 	}
+	width = 1
 	return
 }
 
